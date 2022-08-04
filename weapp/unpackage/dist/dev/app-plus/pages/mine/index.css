@@ -1,0 +1,262 @@
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+uni-view[data-v-045536fa], uni-scroll-view[data-v-045536fa], uni-swiper-item[data-v-045536fa] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+@font-face {
+  font-family: "uicon-iconfont";
+  src: url("https://at.alicdn.com/t/font_2225171_8kdcwk4po24.ttf") format("truetype");
+}
+.u-icon[data-v-045536fa] {
+  display: flex;
+  align-items: center;
+}
+.u-icon--left[data-v-045536fa] {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.u-icon--right[data-v-045536fa] {
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon--top[data-v-045536fa] {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.u-icon--bottom[data-v-045536fa] {
+  flex-direction: column;
+  justify-content: center;
+}
+.u-icon__icon[data-v-045536fa] {
+  font-family: uicon-iconfont;
+  position: relative;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+.u-icon__icon--primary[data-v-045536fa] {
+  color: #3c9cff;
+}
+.u-icon__icon--success[data-v-045536fa] {
+  color: #5ac725;
+}
+.u-icon__icon--error[data-v-045536fa] {
+  color: #f56c6c;
+}
+.u-icon__icon--warning[data-v-045536fa] {
+  color: #f9ae3d;
+}
+.u-icon__icon--info[data-v-045536fa] {
+  color: #909399;
+}
+.u-icon__img[data-v-045536fa] {
+  height: auto;
+  will-change: transform;
+}
+.u-icon__label[data-v-045536fa] {
+  line-height: 1;
+}
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+uni-view[data-v-77a79d3a], uni-scroll-view[data-v-77a79d3a], uni-swiper-item[data-v-77a79d3a] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-link[data-v-77a79d3a] {
+  line-height: 1;
+
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+}
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+uni-view[data-v-1eed3203], uni-scroll-view[data-v-1eed3203], uni-swiper-item[data-v-1eed3203] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-text[data-v-1eed3203] {
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex: 1;
+  width: 100%;
+}
+.u-text__price[data-v-1eed3203] {
+  font-size: 14px;
+  color: #606266;
+}
+.u-text__value[data-v-1eed3203] {
+  font-size: 14px;
+
+  display: flex;
+
+  flex-direction: row;
+  color: #606266;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+  align-items: center;
+}
+.u-text__value--primary[data-v-1eed3203] {
+  color: #3c9cff;
+}
+.u-text__value--warning[data-v-1eed3203] {
+  color: #f9ae3d;
+}
+.u-text__value--success[data-v-1eed3203] {
+  color: #5ac725;
+}
+.u-text__value--info[data-v-1eed3203] {
+  color: #909399;
+}
+.u-text__value--error[data-v-1eed3203] {
+  color: #f56c6c;
+}
+.u-text__value--main[data-v-1eed3203] {
+  color: #303133;
+}
+.u-text__value--content[data-v-1eed3203] {
+  color: #606266;
+}
+.u-text__value--tips[data-v-1eed3203] {
+  color: #909193;
+}
+.u-text__value--light[data-v-1eed3203] {
+  color: #c0c4cc;
+}
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+uni-view[data-v-7ad729fa], uni-scroll-view[data-v-7ad729fa], uni-swiper-item[data-v-7ad729fa] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-avatar[data-v-7ad729fa] {
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.u-avatar--circle[data-v-7ad729fa] {
+  border-radius: 100px;
+}
+.u-avatar--square[data-v-7ad729fa] {
+  border-radius: 4px;
+}
+.u-avatar__image--circle[data-v-7ad729fa] {
+  border-radius: 100px;
+}
+.u-avatar__image--square[data-v-7ad729fa] {
+  border-radius: 4px;
+}
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+uni-view[data-v-0b4862a3], uni-scroll-view[data-v-0b4862a3], uni-swiper-item[data-v-0b4862a3] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-rate[data-v-0b4862a3] {
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  touch-action: none;
+}
+.u-rate__content[data-v-0b4862a3] {
+
+  display: flex;
+
+  flex-direction: row;
+}
+.u-rate__content__item[data-v-0b4862a3] {
+  position: relative;
+}
+.u-rate__content__item__icon-wrap--half[data-v-0b4862a3] {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.u-icon[data-v-0b4862a3] {
+  box-sizing: border-box;
+}
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage[data-v-4bd6864f] {
+  background-color: #f1f1f1;
+}
+.mainPage .header[data-v-4bd6864f] {
+  height: 6.25rem;
+  display: flex;
+}
+.mainPage .header .pic[data-v-4bd6864f] {
+  width: 4.6875rem;
+  padding-top: 1.5625rem;
+  padding-left: 1.5625rem;
+}
+.mainPage .header .info[data-v-4bd6864f] {
+  flex: 1;
+  font-size: 0.375rem;
+  padding: 1.25rem 0;
+}
+.mainPage .header .info .item[data-v-4bd6864f] {
+  line-height: 1.25rem;
+}
+.mainPage .header .info .rate[data-v-4bd6864f] {
+  display: flex;
+}
