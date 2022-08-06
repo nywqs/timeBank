@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/home/heroes/index",
+    "pages/home/schedule/index",
+    "pages/home/sigin/index",
+    "pages/common/article",
+    "pages/project/detail",
+    "pages/team/index",
+    "pages/service/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#ffffff"
+  },
+  "permission": {},
+  "usingComponents": {
+    "fui-tabs": "/components/fui-tabs/fui-tabs"
+  },
+  "sitemapLocation": "sitemap.json"
+}

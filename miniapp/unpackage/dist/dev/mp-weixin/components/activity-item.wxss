@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage.data-v-aba56d34 {
+  padding: 0 20rpx;
+}
+.mainPage .main-title.data-v-aba56d34 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-left: 3px solid goldenrod;
+  padding-left: 15rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grid-text.data-v-aba56d34 {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.list-item.data-v-aba56d34 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.list-item .pic.data-v-aba56d34 {
+  width: 115px;
+  height: 75px;
+}
+.list-item .pic image.data-v-aba56d34 {
+  width: 115px;
+  height: 75px;
+}
+.list-item .content.data-v-aba56d34 {
+  flex: 1;
+}
+.list-item .content .title.data-v-aba56d34 {
+  font-size: 16px;
+  padding-left: 15px;
+  height: 30px;
+}
+.list-item .content .date-location.data-v-aba56d34 {
+  font-size: 14px;
+  display: flex;
+  height: 25px;
+  padding-left: 15px;
+  color: #ccc;
+  font-weight: 100;
+  lline-height: 25px;
+}
+.list-item .content .date-location .date.data-v-aba56d34 {
+  flex: 1;
+}
+.list-item .content .other.data-v-aba56d34 {
+  padding-left: 15px;
+  display: flex;
+  lline-height: 15px;
+}
+.list-item .content .other .price.data-v-aba56d34 {
+  flex: 1;
+  font-size: 14px;
+}
+.list-item .content .other .price .zl.data-v-aba56d34 {
+  font-size: 14px;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+.list-item .content .other .custom-style.data-v-aba56d34 {
+  font-size: 5px;
+  height: 20px;
+}
+

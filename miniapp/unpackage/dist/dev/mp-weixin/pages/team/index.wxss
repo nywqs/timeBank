@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage.data-v-01fb1fd9 {
+  padding: 0 20rpx;
+}
+.mainPage .main-title.data-v-01fb1fd9 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-left: 3px solid goldenrod;
+  padding-left: 15rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grid-text.data-v-01fb1fd9 {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.page.data-v-01fb1fd9 {
+  padding-bottom: 80px;
+}
+.page .header.data-v-01fb1fd9 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  padding: 30px 20px;
+}
+.page .header .avatar.data-v-01fb1fd9 {
+  padding: 6px 10px;
+}
+.page .header .teamInfo .info.data-v-01fb1fd9 {
+  line-height: 10px;
+}
+.page .info.data-v-01fb1fd9 {
+  padding: 10px;
+}
+.page .info .address.data-v-01fb1fd9,
+.page .info .shanchang.data-v-01fb1fd9,
+.page .info .notice.data-v-01fb1fd9 {
+  line-height: 40px;
+}
+.page .info .address .content.data-v-01fb1fd9,
+.page .info .shanchang .content.data-v-01fb1fd9,
+.page .info .notice .content.data-v-01fb1fd9 {
+  line-height: 20px;
+}
+.page .toolbar.data-v-01fb1fd9 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  border-top: 1px solid #f1f1f1;
+  padding: 10px 0px;
+}
+

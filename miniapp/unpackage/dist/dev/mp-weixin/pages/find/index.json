@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-scroll-list": "/uni_modules/uview-ui/components/u-scroll-list/u-scroll-list",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "fui-tabs": "/components/fui-tabs/fui-tabs",
+    "activity-item": "/components/activity-item"
+  }
+}

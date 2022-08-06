@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "日程表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "cx-calendar": "/uni_modules/cx-calendar/components/cx-calendar/cx-calendar"
+  }
+}

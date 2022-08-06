@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "签到",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
+  }
+}

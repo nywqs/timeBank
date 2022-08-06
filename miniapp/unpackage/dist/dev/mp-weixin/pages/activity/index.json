@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "fui-tabs": "/components/fui-tabs/fui-tabs",
+    "activity-item": "/components/activity-item"
+  }
+}

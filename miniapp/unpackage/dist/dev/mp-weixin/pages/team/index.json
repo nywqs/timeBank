@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "团队详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-read-more": "/uni_modules/uview-ui/components/u-read-more/u-read-more",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

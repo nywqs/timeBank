@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage.data-v-4bd6864f {
+  padding: 0 20rpx;
+}
+.mainPage .main-title.data-v-4bd6864f {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-left: 3px solid goldenrod;
+  padding-left: 15rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grid-text.data-v-4bd6864f {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.header.data-v-4bd6864f {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .header-info.data-v-4bd6864f {
+  display: flex;
+  margin-bottom: 10px;
+}
+.header .header-info .pic.data-v-4bd6864f {
+  width: 100px;
+  padding-top: 0px;
+  padding: 0px 20px;
+}
+.header .header-info .info.data-v-4bd6864f {
+  flex: 1;
+  font-size: 14px;
+  padding: 3px 0;
+}
+.header .header-info .info .item.data-v-4bd6864f {
+  line-height: 25px;
+  font-size: 14px;
+}
+.header .header-info .info .rate.data-v-4bd6864f {
+  display: flex;
+}
+.order-status.data-v-4bd6864f {
+  padding: 10px 0 20px 0;
+}
+.copyright.data-v-4bd6864f {
+  line-height: 50px;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+

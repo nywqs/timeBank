@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "项目详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-read-more": "/uni_modules/uview-ui/components/u-read-more/u-read-more",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

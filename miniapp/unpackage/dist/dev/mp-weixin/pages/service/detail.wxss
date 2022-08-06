@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage.data-v-3000c024 {
+  padding: 0 20rpx;
+}
+.mainPage .main-title.data-v-3000c024 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-left: 3px solid goldenrod;
+  padding-left: 15rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grid-text.data-v-3000c024 {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.mainPage.data-v-3000c024 {
+  padding-bottom: 80px;
+}
+.mainPage .userinfo.data-v-3000c024 {
+  display: flex;
+}
+.mainPage .userinfo .avatar.data-v-3000c024 {
+  width: 50px;
+  padding: 5px;
+}
+.mainPage .userinfo .content.data-v-3000c024 {
+  flex: 1;
+}
+.mainPage .userinfo .content .nickname.data-v-3000c024 {
+  font-size: 16px;
+  line-height: 30px;
+}
+.mainPage .userinfo .content .desc.data-v-3000c024 {
+  font-size: 14px;
+  color: #999;
+}
+.mainPage .userinfo .tel.data-v-3000c024 {
+  width: 50px;
+  padding: 5px;
+}
+.mainPage .thumb.data-v-3000c024 {
+  width: 100%;
+  padding: 10px 0;
+  height: 120px;
+  overflow: hidden;
+}
+.mainPage .thumb image.data-v-3000c024 {
+  width: 100%;
+}
+.mainPage .service-content .header.data-v-3000c024 {
+  display: flex;
+  line-height: 50px;
+}
+.mainPage .service-content .header .title.data-v-3000c024 {
+  flex: 1;
+}
+.mainPage .service-content .header .price.data-v-3000c024 {
+  width: 120px;
+  text-align: right;
+}
+.mainPage .service-content .header .price .num.data-v-3000c024 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #ff8000;
+  padding-right: 10px;
+}
+.mainPage .service-info.data-v-3000c024 {
+  padding: 10px 0;
+}
+.mainPage .service-info .info.data-v-3000c024 {
+  line-height: 30px;
+}
+.mainPage .service-info .info .value.data-v-3000c024 {
+  color: #999;
+}
+.mainPage .toolbar.data-v-3000c024 {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  border-top: 1px solid #f1f1f1;
+  padding: 5px 10px;
+}
+.mainPage .toolbar .price.data-v-3000c024 {
+  width: 150%;
+  line-height: 40px;
+  text-align: left;
+}
+.mainPage .toolbar .price .num.data-v-3000c024 {
+  font-size: 30px;
+  color: #ff8000;
+  font-weight: 900;
+  padding: 0 10px;
+}
+.mainPage .toolbar .gap.data-v-3000c024 {
+  width: 40px;
+}
+

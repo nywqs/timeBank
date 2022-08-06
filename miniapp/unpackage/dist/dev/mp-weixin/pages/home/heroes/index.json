@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "英雄榜",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "fui-tabs": "/components/fui-tabs/fui-tabs",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "heroes-item": "/pages/home/heroes/components/heroes-item"
+  }
+}

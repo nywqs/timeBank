@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mainPage.data-v-7b986f82 {
+  padding: 0 20rpx;
+}
+.mainPage .main-title.data-v-7b986f82 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-left: 3px solid goldenrod;
+  padding-left: 15rpx;
+  font-size: 16px;
+  font-weight: 600;
+}
+.grid-text.data-v-7b986f82 {
+  font-size: 16px;
+  margin-top: 6px;
+}
+.container.data-v-7b986f82 {
+  width: 100%;
+  height: 386px;
+}
+.container .title.data-v-7b986f82 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+}
+.container .title button.data-v-7b986f82 {
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  padding: 0px 10px;
+}
+.container .cx-swiper.data-v-7b986f82 {
+  height: 386px;
+}
+.container .cx-swiper .cx-swiper-item.data-v-7b986f82 {
+  height: 386px;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container.data-v-7b986f82 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content.data-v-7b986f82 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+  padding: 5px 0px;
+  background: #fff;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content .cx-swiper-item-content-item.data-v-7b986f82 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40px;
+  border-bottom: 1px solid #808080;
+  text-align: center;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content .cx-swiper-item-content-item text.data-v-7b986f82 {
+  color: #808080;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content .cx-swiper-item-content-date-item.data-v-7b986f82 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 46px;
+  text-align: center;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content .cx-swiper-item-content-date-item .cx-date-num.data-v-7b986f82 {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container .cx-swiper .cx-swiper-item .cx-swiper-item-container .cx-swiper-item-content .cx-swiper-item-content-date-item .cx-date-lunar.data-v-7b986f82 {
+  color: #808080;
+  font-size: 12px;
+}
+
